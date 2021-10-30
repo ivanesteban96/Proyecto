@@ -25,6 +25,8 @@ public class PantallaPrincipal extends javax.swing.JFrame {
             tablaNueva.addRow(cliente.añadirDatos());
         }
         
+        System.out.print("hola mono");
+        
         tabla.setModel(tablaNueva);                                                                    //TRANSFORMAMOS LA TABLA EXISTENTE EN LA NUEVA TABLA
     }
     
